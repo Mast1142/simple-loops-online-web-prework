@@ -1,9 +1,10 @@
 # REMEMBER: print your output to the terminal using 'puts'
 def loop_iterator(number_of_times)
+  loop_iterator = 0
   loop do
     loop_iterator += 1
     puts "Welcome to Flatiron School's Web Development Course!"
-    if loop_iterator >= (number_of_times)
+    if loop_iterator >= number_of_times
       break
     end
   end
