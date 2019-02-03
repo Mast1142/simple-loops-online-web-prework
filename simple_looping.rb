@@ -27,7 +27,7 @@ def while_iterator(number_of_times)
 end
 
 def until_iterator(number_of_times)
-  until until_iterator == number_of_times
+  until until_iterator == (number_of_times)
     puts "Welcome to Flatiron School's Web Development Course!"
     until_iterator += 1
   end
